@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(45deg, #ba4de9,#9029f1,#7915d6,#471edd,#3235f5,#1f77e9,#32aef5,#2afaa3);
+}
+.input{
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.btn{
+    position:absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 40px
+}
+.logo{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    background-image: none;
+}
+.gifs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gifs-container img {
+    margin: 5px;
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+}
